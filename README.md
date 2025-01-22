@@ -1,7 +1,6 @@
-# project 3 portfolio
+# Catelyn Sue Portfolio (Student Project)
 
-Catelyn Sue
-Final Site: https://www.sfu.ca/siat/student_projects/iat339_2023_fall/csue/portfolio/index.html
+Catelyn Sue Portfolio
 
 Citations:
 Fonts:
