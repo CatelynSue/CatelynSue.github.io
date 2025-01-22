@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grids.css">
+
+    <!-- Import Adobe Font: Degular Display (for H1, H2, H3) -->
+    <link rel="stylesheet" href="https://use.typekit.net/svp8psd.css">
+    <!-- Import Adobe Font: Tenon (for body) -->
+    <link rel="stylesheet" href="https://use.typekit.net/svp8psd.css">
+
+    <title>Catelyn Sue Portfolio</title>
+</head>
+
+<body>
+
+    <div class="nav">
+        <nav class="nav grid one two">
+            <div class="nav-left">
+                <a href="index.html" class="logo">Catelyn Sue</a>
+            </div>
+            <div class="nav-right">
+                <a href="index.html" class="nav-item">Work</a>
+                <a href="about.html" class="nav-item">About</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main case study content -->
+
+    <section class="section case-container">
+        <h1>Reckoning of the Rift</h1>
+        <img src="img/gamecover.png" width="1846" height="1080" alt="Screen shot of Reckoning of the Rift Game">
+        <div class="info-grid one two four add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2>DURATION</h2>
+                <p>Spring 2023</p>
+                <p>3 months</p>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <h2>ROLES</h2>
+                <p>UI Design</p>
+                <p>User Research</p>
+                <p>Icon Design</p>
+            </div>
+
+            <!-- COLUMN 3 -->
+            <div>
+                <h2>TOOLS</h2>
+                <p>Figma</p>
+                <p>Adobe Illustrator</p>
+                <p>Github</p>
+            </div>
+
+            <!-- COLUMN 4 -->
+            <div class="span-cols">
+                <h2>TEAM</h2>
+                <p><a href="https://markerpens.github.io/" alt="Mark Robles Portfolio">Mark Robles</a> — Game Design &
+                    Development</p>
+                <p><a href="https://www.hannaluu.com/ " alt="Hanna Luu Portfolio">Hanna Luu</a> — Sound Design & Game
+                    Development</p>
+                <p><a href="https://www.erika.wang/" alt="Erika Wang Portfolio">Erika Wang</a> — Character Design &
+                    Animation</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2 class="h2-lg">OVERVIEW</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <p><strong>Reckoning of the Rift</strong> is a narrative driven 2D side-scrolling action-adventure game that challenges players' abilities to strategize for fast-paced combat and environmental obstacles. The game is the final installment of <strong>The Rift Saga</strong>; its narrative being a continuation of <a href="https://www.youtube.com/watch?v=1LAx6kUAYAg">Rift Awakening</a> (machinima), <a href="https://hanna-luu.itch.io/beyond-the-rift">Beyond the Rift</a>, and <a href="https://hanna-luu.itch.io/legacy-of-the-rift">Legacy of the Rift</a>. It follows the legendary Ironhand family—all of whom possess  extraordinary magical powers—and the conflicts that they face in the world of Wulfgard.</p>
+                <p>The final deliverable of this project is a fully playable game with 6 playable characters, 3 main levels, 2 mini-bosses and one final boss.The final game can be <a href="https://hanna-luu.itch.io/reckoning-of-the-rift">downloaded here</a>.</p>
+            </div>
+        </div>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2>PROJECT OBJECTIVES</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <p> For this game, I designed the user interface , consisting of <strong>13 different screens and overlays</strong>, including in-game navigation, player's heads-up display, dialogue screens, and a new party selection screen, as well as <strong>60+ buttons and components</strong>.</p>
+                <p> Since this game is built upon previous games, so the objective was to optimize the UI layout in a way that does not disrupt the gameplay, while keeping it familiar so that returning players would not have trouble navigating the interface.</p>
+            </div>
+        </div>
+
+        <figure><img src="img/prevgames.png" width="1751" height="1124" alt="Collage of screens from previous Rift Saga games."></figure>
+        <figcaption>Screenshots from previous Rift Saga games: Legacy of the Rift (coloured), Beyond the Rift (black & white).</figcaption>
+
+        <hr>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2 class="h2-lg">PART 1: UI Safe Areas</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <p>The first step in the interface design process was <strong>determining which areas were safe to be used for UI</strong>. The previous games had varying sizes of elements and no set UI areas, breaking the cohesion.</p>
+                <p>Using Figma to design and prototype the interface, I set up UI margins and safe areas on the top and bottom of the screen to keep key information uniformly within key areas.</p>
+            </div>
+        </div>
+
+        <figure><img src="img/oldUI.png" width="1920" height="1080"
+                alt="Picture of in-game UI from Legacy of the Rift.">
+        </figure>
+        <figcaption>The previous games' interface took up varying amounts of space for UI elements and inconsistent margins.</figcaption>
+
+        <figure><img src="img/newUIgrid.png" width="1920" height="1080"
+                alt="Picture of an in-game combat screen from Reckoning of the Rift."></figure>
+        <figcaption>The new grid allows for all UI elements to be kept within set areas (A—margins, B—safe zones), and sets a basis for other screens.</figcaption>
+
+        <hr>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2 class="h2-lg">PART 2: Heads-Up Display</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <p>The Heads-up Display (HUD) contains key information such as player health, party members, and abilities. It is overlaid on any non-dialogue screen, making visibility and ease of understanding crucial.</p>
+            </div>
+        </div>
+
+        <div class="grid one two add-gutters">
+            <div>
+                <figure>
+                    <img src="img/testingTopUI.png" width="2075" height="1080" alt="Picture of tester's responses to HUD UI on the top">
+                </figure>
+                <figcaption>
+                    (Prototype A) Three testers preferred HUD at the top of the screen because it was easier to get information from one place (player health, enemy locations).
+                </figcaption>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/testingBotUI.png" width="1995" height="1080" alt="Picture of tester's responses to HUD UI on the bottom">
+                </figure>
+                <figcaption>
+                    (Prototype B) One tester preferred HUD UI at the bottom so they wouldn't have to look at the top left and bottom right for interactive controls.
+                </figcaption>
+            </div>
+
+
+        </div>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2>RESEARCH & TESTING</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <p>After researching the UI of other role-play combat games, I found that many newer games keep the HUD at the bottom of the screen, but the previous Rift Saga games had the HUD on top.</p>
+
+                <p>To gauge the user experience of both scenarios, I ran an A/B test of two Figma prototypes where the UI is either at the top or bottom of the screen. 75% of testers preferred HUD on the top as it was more glanceable, and the other 25% preferred HUD on the bottom as all interactive UI is together. Ultimately, we kept the HUD in the top as less users found it obstructive.</p>
+
+                <p class="quote">“I like that having the UI on top keeps it out of the way of enemies and all the other moving things to look out for on the bottom.” — Tester A</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2 class="h2-lg">PART 3: Visual Cohesion</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <p>
+                    Lastly, I had to ensure that there was a cohesive and consistent visual language across all the screens, overlays and components throughout the game.
+                </p>
+            </div>
+        </div>
+
+        <figure>
+            <img src="img/solutionoverview.png" width="1552" height="1365" alt="Collage of different screens that use the UI elements.">
+        </figure>
+        <figcaption>
+            The icons and UI elements are used in different sizes and placements across screens, such as the Character Details, Combat, or Character Selection screens.
+        </figcaption>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2 class="h2-lg">ICON DESIGN</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <p>
+                    Character and ability icons were filled with translucent dark grey so players can see the contents without compromising the legibility when laid over different in-game backgrounds. In certain screens, such as Character Details, elemental powers were indicated using colours on the icon and element icon.
+                </p>
+
+                <p>The iconography was first sketched in reference to the designs by my teammate Erika, before vectorizing them to be usable at different scales in various screens. Each icon was designed to correlate each of the playable characters to their abilities and weapons, helping reduce cognitive overhead for players and improve recognition and recall for quicker ability casting. </p>
+            </div>
+        </div>
+
+        <figure>
+            <img src="img/uiElements.png" width="950" height="737" alt="Set of UI elements including character icons, abilities and weapon icons.">
+        </figure>
+        <figcaption>
+            Compilation of UI elements (top-bottom rows): Character Detail icons, Character Select icons, Abilityicons, and Weapon icons.
+        </figcaption>
+
+        <hr>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2 class="h2-lg">REFLECTION</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                <p>
+                    This was my first time working on game UI from ideation to launch, as well as my first time creating a design library. I found it challenging to design a non-intrusive UI that is both distinct from the pixel-style game elements, but also doesn’t look out of place with the game’s art direction. I also quickly learned about the game development process working on UI alongside code, and had to accept that some design decisions would not be implemented due to prioritizing core gameplay development over some UI elements and animations.
+                </p>
+
+                <p>But overall, this project was a valuable experience that taught me to be adaptable, open to feedback, and how to be a team player working and communicating across teams!</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="case-grid add-gutters">
+            <!-- COLUMN 1 -->
+            <div>
+                <h2 class="h2-lg">ADDITIONAL MEDIA</h2>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div>
+                If you have some time and would like to take a look, find the full game trailer and some videos of UI walkthroughs below!
+            </div>
+        </div>
+
+        <div style="padding:55.87% 0 1.5rem 0;position:relative;"><iframe src="https://www.youtube.com/embed/dU--DFVrUh4?si=VTXOmAZuWL2rXUEO" 
+            allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            title="Reckoning of the Rift – Trailer | PC & Mac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="Video of Reckoning of the Rift game trailer"></iframe></div>
+
+        <div style="padding:55.87% 0 1.5rem 0;position:relative;"><iframe src="https://player.vimeo.com/video/891332585?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reckoning of the Rift | Start &amp; Controls UI" alt="Video of the game's starting screen and controls menu"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                
+        <div style="padding:55.8% 0 1.5rem 0;position:relative;"><iframe src="https://player.vimeo.com/video/891332591?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reckoning of the Rift | Party Selection &amp; Combat UI" alt="Video of the game's character selection and combat"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+        <div style="padding:55.92% 0 1.5rem 0;position:relative;"><iframe src="https://player.vimeo.com/video/891336831?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reckoning of the Rift | Dialogue UI" alt="Video of the game's dialogue screens"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </section>
+
+    <!-- FOOTER -->
+    <!-- <div class="footer">
+        <p class="footer-p">Code & Design by Catelyn Sue 2023</p>
+    </div> -->
+</body>
+
+</html>

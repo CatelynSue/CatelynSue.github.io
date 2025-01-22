@@ -1,0 +1,277 @@
+.grid, 
+.work-grid, 
+.info-grid, 
+.case-grid {
+    display: grid;
+}
+
+.grid.add-gutters, 
+.work-grid.add-gutters, 
+.info-grid.add-gutters,
+.case-grid.add-gutters {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2.5rem;
+}
+
+@media (min-width: 0rem) {
+    .section {
+        margin: 0rem 1rem;
+    }
+
+    .nav.grid.one {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .nav-left {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .nav-right {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .nav a {
+        text-align: center;
+    }
+
+    .grid.one {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .work-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .span-cols {
+		grid-column: span 3;
+	}
+
+    .case-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .case-container img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .h2-lg {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .skill-tag {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 35.3125rem) {
+    .section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .grid.two {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .grid.three {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .grid.add-gutters {
+        grid-column-gap: 1rem;
+        grid-row-gap: 1.25rem;
+    }
+
+    .nav-left {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        text-wrap: nowrap;
+    }
+
+    .nav-right {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+
+    }
+
+    .nav.grid.two {
+        grid-template-columns: 0.3fr 1.7fr;
+    }
+
+    .nav.grid.add-gutters {
+        grid-column-gap: 0;
+        grid-row-gap: 2.5rem;
+    }
+
+    .case-container.grid.add-gutters {
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 2.5rem;
+    }
+
+    .info-grid {
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 1.5fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .case-grid {
+        grid-template-columns: 0.52fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .case-container img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+    }
+
+    .h2-lg {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .skill-tag {
+        font-size: 0.825rem;
+    }
+
+    .span-cols {
+		grid-column: span 1;
+	}
+}
+
+
+@media (min-width: 48rem) {
+    .nav-left {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+
+    .nav-right {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
+
+    .work-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .nav.grid.two {
+        grid-template-columns: 0.4fr 1.6fr;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        float: left;
+        text-align: left;
+    }
+
+    .grid.two {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .grid.three {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        max-width: 46rem;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+    }
+
+    .h2-lg {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .skill-tag {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 54.5rem) {
+    .section {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    .grid.three {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+}
+
+@media (min-width: 64rem) {
+    .nav.grid.two {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+}
+
+@media (min-width: 72rem) {
+    .nav.grid.two {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    h1 {
+        max-width: 52rem;
+    }
+}
