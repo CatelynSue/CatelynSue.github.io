@@ -22,14 +22,33 @@ strong {
   font-style: normal;
 }
 
+/* AREA VARIABLE
 h1 {
+  font-family: "area-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700, "INKT" 0;
+  padding-top: 0;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: "area-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 0;
+  padding-top: 0;
+  font-size: 1.125rem;
+  color: #202124;
+  max-width: 50rem;
+  margin-top: 0;
+} */
+
+  h1 {
   font-family: "degular-display", sans-serif;
   font-weight: 600;
   font-style: normal;
   padding-top: 0;
   font-size: 2.5rem;
   margin-top: 0;
-}
+} 
 
 h2 {
   font-family: "degular-display", sans-serif;
@@ -37,11 +56,10 @@ h2 {
   font-style: normal;
   padding-top: 0;
   font-size: 1.125rem;
-  /* color: #807f7dca; */
   color: #202124;
   max-width: 50rem;
   margin-top: 0;
-}
+} 
 
 .h2-lg {
   font-family: "degular-display", sans-serif;
