@@ -73,6 +73,7 @@
 
     h1 {
         font-size: 1.75rem;
+        max-width: 90%;
     }
 
     h2 {
@@ -88,7 +89,7 @@
     }
 
     .skill-tag {
-        font-size: 0.75rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -173,10 +174,6 @@
         font-size: 1.5rem;
     }
 
-    .skill-tag {
-        font-size: 0.825rem;
-    }
-
     .span-cols {
 		grid-column: span 1;
 	}
@@ -224,7 +221,8 @@
 
     h1 {
         font-size: 2.5rem;
-        max-width: 46rem;
+        /*max-width: 46rem;*/
+        max-width: 85%;
     }
 
     h2 {
@@ -238,13 +236,9 @@
     h3 {
         font-size: 1.5rem;
     }
-
-    .skill-tag {
-        font-size: 0.875rem;
-    }
 }
 
-@media (min-width: 54.5rem) {
+/*@media (min-width: 54.5rem) {
     .section {
         margin-left: 12.5%;
         margin-right: 12.5%;
@@ -255,9 +249,14 @@
         grid-template-rows: auto;
         grid-auto-flow: row;
     }
-}
+}*/
 
 @media (min-width: 64rem) {
+    .section {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
     .nav.grid.two {
         grid-template-columns: 1fr 1fr;
         gap: 0.5rem;
@@ -272,6 +271,7 @@
     }
 
     h1 {
-        max-width: 52rem;
+        /*max-width: 52rem;*/
+        max-width: 85%;
     }
 }

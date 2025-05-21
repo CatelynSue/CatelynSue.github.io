@@ -18,7 +18,7 @@ body {
 
 strong {
   font-family: "tenon", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -138,7 +138,7 @@ span.blue {
   color: #1B48E7;
   border: 1px solid #1B48E7;
   border-radius: 30px;
-  padding: 5px 7px;
+  padding: 4px 8px;
   width: fit-content;
   margin: 0 0.25rem 0.5rem 0;
   display: inline-block;
