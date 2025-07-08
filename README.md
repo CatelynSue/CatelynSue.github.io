@@ -1,6 +1,8 @@
-# Catelyn Sue Portfolio (Student Project)
+# Catelyn Sue Portfolio (WIP)
 
 Catelyn Sue Portfolio
+Vancouver Digital Designer
+Updated July 2025
 
 Citations:
 Fonts:
