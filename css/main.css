@@ -142,6 +142,7 @@ span.blue {
   width: fit-content;
   margin: 0 0.25rem 0.5rem 0;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 ::selection {
@@ -284,4 +285,18 @@ figcaption {
   font-size: 0.8rem;
   margin: 0;
   padding: 0;
+}
+
+.img-round-l {
+  border-radius: 15px;
+}
+
+.img-round-s {
+  border-radius: 15px;
+  box-shadow: #807f7d1d 0px 0px 3px;
+}
+
+.cover-img {
+  width: auto;
+  height: max-content;
 }

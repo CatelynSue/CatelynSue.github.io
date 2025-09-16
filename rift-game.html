@@ -38,7 +38,7 @@
 
     <section class="section case-container">
         <h1>Reckoning of the Rift</h1>
-        <img src="img/gamecover.png" width="1846" height="1080" alt="Screen shot of Reckoning of the Rift Game">
+        <img class="img-round-l" src="img/rift/rift-cover.png" width="1846" height="1080" alt="Screen shot of Reckoning of the Rift Game">
         <!-- <video width="1920" height="1080" autoplay controls muted loop>
             <source src="vid/20171111_133557.mp4" type="video/mp4">
         </video> -->
@@ -122,159 +122,132 @@
             </div>
         </div>
 
-        <figure><img src="img/prevgames.png" width="1751" height="1124"
+        <figure><img src="img/rift/prevgames.png" width="1751" height="1124"
                 alt="Collage of screens from previous Rift Saga games."></figure>
         <figcaption>Screenshots from previous Rift Saga games: Legacy of the Rift (coloured), Beyond the Rift (black &
             white).</figcaption>
 
-        <hr>
+            <hr>
 
-        <div class="case-grid add-gutters">
-            <!-- COLUMN 1 -->
-            <div>
-                <h2 class="h2-lg">PART 1: UI Safe Areas</h2>
+            <div class="case-grid add-gutters">
+                <!-- COLUMN 1 -->
+                <div>
+                    <h2 class="h2-lg">PART 1: UI Safe Areas</h2>
+                </div>
+    
+                <!-- COLUMN 2 -->
+                <div>
+                    <p>The first step in the interface design process was <strong>determining which areas were safe to be used for UI</strong>. The previous games had varying sizes of elements and no set UI areas, breaking the cohesion.</p>
+                    <p>Using Figma to design and prototype the interface, I set up UI margins and safe areas on the top and bottom of the screen to keep key information uniformly within key areas.</p>
+                </div>
             </div>
-
-            <!-- COLUMN 2 -->
-            <div>
-                <p>The first step in the interface design process was <strong>determining which areas were safe to be
-                        used for UI</strong>. The previous games had varying sizes of elements and no set UI areas,
-                    breaking the cohesion.</p>
-                <p>Using Figma to design and prototype the interface, I set up UI margins and safe areas on the top and
-                    bottom of the screen to keep key information uniformly within key areas.</p>
+    
+            <figure><img class="img-round-l" src="img/rift/oldUI.png" width="1920" height="1080"
+                    alt="Picture of in-game UI from Legacy of the Rift.">
+            </figure>
+            <figcaption>The previous games' interface took up varying amounts of space for UI elements and inconsistent margins.</figcaption>
+    
+            <figure><img class="img-round-l" src="img/rift/newUIgrid.png" width="1920" height="1080"
+                    alt="Picture of an in-game combat screen from Reckoning of the Rift."></figure>
+            <figcaption>The new grid allows for all UI elements to be kept within set areas (A—margins, B—safe zones), and sets a basis for other screens.</figcaption>
+    
+            <hr>
+    
+            <div class="case-grid add-gutters">
+                <!-- COLUMN 1 -->
+                <div>
+                    <h2 class="h2-lg">PART 2: Heads-Up Display</h2>
+                </div>
+    
+                <!-- COLUMN 2 -->
+                <div>
+                    <p>The Heads-up Display (HUD) contains key information such as player health, party members, and abilities. It is overlaid on any non-dialogue screen, making visibility and ease of understanding crucial.</p>
+                </div>
             </div>
-        </div>
-
-        <figure><img src="img/oldUI.png" width="1920" height="1080"
-                alt="Picture of in-game UI from Legacy of the Rift.">
-        </figure>
-        <figcaption>The previous games' interface took up varying amounts of space for UI elements and inconsistent
-            margins.</figcaption>
-
-        <figure><img src="img/newUIgrid.png" width="1920" height="1080"
-                alt="Picture of an in-game combat screen from Reckoning of the Rift."></figure>
-        <figcaption>The new grid allows for all UI elements to be kept within set areas (A—margins, B—safe zones), and
-            sets a basis for other screens.</figcaption>
-
-        <hr>
-
-        <div class="case-grid add-gutters">
-            <!-- COLUMN 1 -->
-            <div>
-                <h2 class="h2-lg">PART 2: Heads-Up Display</h2>
+    
+            <div class="grid one two add-gutters">
+                <div>
+                    <figure>
+                        <img class="img-round-s" src="img/rift/testingTopUI.png" width="2075" height="1080" alt="Picture of tester's responses to HUD UI on the top">
+                    </figure>
+                    <figcaption>
+                        (Prototype A) Three testers preferred HUD at the top of the screen because it was easier to get information from one place (player health, enemy locations).
+                    </figcaption>
+                </div>
+    
+                <div>
+                    <figure>
+                        <img class="img-round-s" src="img/rift/testingBotUI.png" width="1995" height="1080" alt="Picture of tester's responses to HUD UI on the bottom">
+                    </figure>
+                    <figcaption>
+                        (Prototype B) One tester preferred HUD UI at the bottom so they wouldn't have to look at the top left and bottom right for interactive controls.
+                    </figcaption>
+                </div>
+    
+    
             </div>
-
-            <!-- COLUMN 2 -->
-            <div>
-                <p>The Heads-up Display (HUD) contains key information such as player health, party members, and
-                    abilities. It is overlaid on any non-dialogue screen, making visibility and ease of understanding
-                    crucial.</p>
+    
+            <div class="case-grid add-gutters">
+                <!-- COLUMN 1 -->
+                <div>
+                    <h2>RESEARCH & TESTING</h2>
+                </div>
+    
+                <!-- COLUMN 2 -->
+                <div>
+                    <p>After researching the UI of other role-play combat games, I found that many newer games keep the HUD at the bottom of the screen, but the previous Rift Saga games had the HUD on top.</p>
+    
+                    <p>To gauge the user experience of both scenarios, I ran an A/B test of two Figma prototypes where the UI is either at the top or bottom of the screen. 75% of testers preferred HUD on the top as it was more glanceable, and the other 25% preferred HUD on the bottom as all interactive UI is together. Ultimately, we kept the HUD in the top as less users found it obstructive.</p>
+    
+                    <p class="quote">“I like that having the UI on top keeps it out of the way of enemies and all the other moving things to look out for on the bottom.” — Tester A</p>
+                </div>
             </div>
-        </div>
-
-        <div class="grid one two add-gutters">
-            <div>
-                <figure>
-                    <img src="img/testingTopUI.png" width="2075" height="1080"
-                        alt="Picture of tester's responses to HUD UI on the top">
-                </figure>
-                <figcaption>
-                    (Prototype A) Three testers preferred HUD at the top of the screen because it was easier to get
-                    information from one place (player health, enemy locations).
-                </figcaption>
+    
+            <hr>
+    
+            <div class="case-grid add-gutters">
+                <!-- COLUMN 1 -->
+                <div>
+                    <h2 class="h2-lg">PART 3: Visual Cohesion</h2>
+                </div>
+    
+                <!-- COLUMN 2 -->
+                <div>
+                    <p>
+                        Lastly, I had to ensure that there was a cohesive and consistent visual language across all the screens, overlays and components throughout the game.
+                    </p>
+                </div>
             </div>
-
-            <div>
-                <figure>
-                    <img src="img/testingBotUI.png" width="1995" height="1080"
-                        alt="Picture of tester's responses to HUD UI on the bottom">
-                </figure>
-                <figcaption>
-                    (Prototype B) One tester preferred HUD UI at the bottom so they wouldn't have to look at the top
-                    left and bottom right for interactive controls.
-                </figcaption>
+    
+            <figure>
+                <img class="img-round-l" src="img/rift/solutionoverview.png" width="1552" height="1365" alt="Collage of different screens that use the UI elements.">
+            </figure>
+            <figcaption>
+                The icons and UI elements are used in different sizes and placements across screens, such as the Character Details, Combat, or Character Selection screens.
+            </figcaption>
+    
+            <div class="case-grid add-gutters">
+                <!-- COLUMN 1 -->
+                <div>
+                    <h2 class="h2-lg">ICON DESIGN</h2>
+                </div>
+    
+                <!-- COLUMN 2 -->
+                <div>
+                    <p>
+                        Character and ability icons were filled with translucent dark grey so players can see the contents without compromising the legibility when laid over different in-game backgrounds. In certain screens, such as Character Details, elemental powers were indicated using colours on the icon and element icon.
+                    </p>
+    
+                    <p>The iconography was first sketched in reference to the designs by my teammate Erika, before vectorizing them to be usable at different scales in various screens. Each icon was designed to correlate each of the playable characters to their abilities and weapons, helping reduce cognitive overhead for players and improve recognition and recall for quicker ability casting. </p>
+                </div>
             </div>
-
-
-        </div>
-
-        <div class="case-grid add-gutters">
-            <!-- COLUMN 1 -->
-            <div>
-                <h2>RESEARCH & TESTING</h2>
-            </div>
-
-            <!-- COLUMN 2 -->
-            <div>
-                <p>After researching the UI of other role-play combat games, I found that many newer games keep the HUD
-                    at the bottom of the screen, but the previous Rift Saga games had the HUD on top.</p>
-
-                <p>To gauge the user experience of both scenarios, I ran an A/B test of two Figma prototypes where the
-                    UI is either at the top or bottom of the screen. 75% of testers preferred HUD on the top as it was
-                    more glanceable, and the other 25% preferred HUD on the bottom as all interactive UI is together.
-                    Ultimately, we kept the HUD in the top as less users found it obstructive.</p>
-
-                <p class="quote">“I like that having the UI on top keeps it out of the way of enemies and all the other
-                    moving things to look out for on the bottom.” — Tester A</p>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="case-grid add-gutters">
-            <!-- COLUMN 1 -->
-            <div>
-                <h2 class="h2-lg">PART 3: Visual Cohesion</h2>
-            </div>
-
-            <!-- COLUMN 2 -->
-            <div>
-                <p>
-                    Lastly, I had to ensure that there was a cohesive and consistent visual language across all the
-                    screens, overlays and components throughout the game.
-                </p>
-            </div>
-        </div>
-
-        <figure>
-            <img src="img/solutionoverview.png" width="1552" height="1365"
-                alt="Collage of different screens that use the UI elements.">
-        </figure>
-        <figcaption>
-            The icons and UI elements are used in different sizes and placements across screens, such as the Character
-            Details, Combat, or Character Selection screens.
-        </figcaption>
-
-        <div class="case-grid add-gutters">
-            <!-- COLUMN 1 -->
-            <div>
-                <h2 class="h2-lg">ICON DESIGN</h2>
-            </div>
-
-            <!-- COLUMN 2 -->
-            <div>
-                <p>
-                    Character and ability icons were filled with translucent dark grey so players can see the contents
-                    without compromising the legibility when laid over different in-game backgrounds. In certain
-                    screens, such as Character Details, elemental powers were indicated using colours on the icon and
-                    element icon.
-                </p>
-
-                <p>The iconography was first sketched in reference to the designs by my teammate Erika, before
-                    vectorizing them to be usable at different scales in various screens. Each icon was designed to
-                    correlate each of the playable characters to their abilities and weapons, helping reduce cognitive
-                    overhead for players and improve recognition and recall for quicker ability casting. </p>
-            </div>
-        </div>
-
-        <figure>
-            <img src="img/uiElements.png" width="950" height="737"
-                alt="Set of UI elements including character icons, abilities and weapon icons.">
-        </figure>
-        <figcaption>
-            Compilation of UI elements (top-bottom rows): Character Detail icons, Character Select icons, Abilityicons,
-            and Weapon icons.
-        </figcaption>
+    
+            <figure>
+                <img class="img-round-l" src="img/rift/uiElements.png" width="950" height="737" alt="Set of UI elements including character icons, abilities and weapon icons.">
+            </figure>
+            <figcaption>
+                Compilation of UI elements (top-bottom rows): Character Detail icons, Character Select icons, Abilityicons, and Weapon icons.
+            </figcaption>
 
         <hr>
 
