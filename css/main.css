@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -41,14 +41,14 @@ h2 {
   margin-top: 0;
 } */
 
-  h1 {
+h1 {
   font-family: "degular-display", sans-serif;
   font-weight: 600;
   font-style: normal;
   padding-top: 0;
   font-size: 2.5rem;
   margin-top: 0;
-} 
+}
 
 h2 {
   font-family: "degular-display", sans-serif;
@@ -59,7 +59,7 @@ h2 {
   color: #202124;
   max-width: 50rem;
   margin-top: 0;
-} 
+}
 
 .h2-lg {
   font-family: "degular-display", sans-serif;
@@ -183,7 +183,8 @@ span.blue {
   margin-bottom: 0.75rem;
 }
 
-.works-container a:hover, .works-container a:focus {
+.works-container a:hover,
+.works-container a:focus {
   text-decoration: none;
 }
 
@@ -274,12 +275,12 @@ figcaption {
   width: 100%;
   margin-top: 1rem;
   padding: 1rem;
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .footer-p {
-	text-align: center;
-	padding: 0.25rem;
+  text-align: center;
+  padding: 0.25rem;
   max-width: 100%;
   color: #807f7dca;
   font-size: 0.8rem;

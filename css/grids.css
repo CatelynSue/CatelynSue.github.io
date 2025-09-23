@@ -1,12 +1,12 @@
-.grid, 
-.work-grid, 
-.info-grid, 
+.grid,
+.work-grid,
+.info-grid,
 .case-grid {
     display: grid;
 }
 
-.grid.add-gutters, 
-.work-grid.add-gutters, 
+.grid.add-gutters,
+.work-grid.add-gutters,
 .info-grid.add-gutters,
 .case-grid.add-gutters {
     grid-column-gap: 1.5rem;
@@ -56,8 +56,8 @@
     }
 
     .span-cols {
-		grid-column: span 3;
-	}
+        grid-column: span 3;
+    }
 
     .case-grid {
         grid-template-columns: 1fr;
@@ -175,8 +175,8 @@
     }
 
     .span-cols {
-		grid-column: span 1;
-	}
+        grid-column: span 1;
+    }
 }
 
 
